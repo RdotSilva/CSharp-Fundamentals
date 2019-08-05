@@ -24,6 +24,12 @@ namespace ArrayMethods
 
             foreach (var n in numbers)
                 Console.WriteLine(n);
+
+            // Copy()
+            int[] another = new int[3];
+            Array.Copy(numbers, another, 3);
+            foreach (var n in another)
+                Console.WriteLine(n);
         }
     }
 }
