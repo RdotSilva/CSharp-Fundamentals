@@ -18,6 +18,12 @@ namespace ArrayMethods
             // IndexOf()
             var index = Array.IndexOf(numbers, 9);
             Console.WriteLine(index);
+
+            // Clear()
+            Array.Clear(numbers, 0, 2);
+
+            foreach (var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
