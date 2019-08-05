@@ -35,6 +35,11 @@ namespace ArrayMethods
             Array.Sort(numbers);
             foreach (var n in numbers)
                 Console.WriteLine(n);
+
+            // Reverse()
+            Array.Reverse(numbers);
+            foreach (var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
