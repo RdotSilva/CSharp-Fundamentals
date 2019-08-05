@@ -30,6 +30,11 @@ namespace ArrayMethods
             Array.Copy(numbers, another, 3);
             foreach (var n in another)
                 Console.WriteLine(n);
+
+            // Sort()
+            Array.Sort(numbers);
+            foreach (var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
