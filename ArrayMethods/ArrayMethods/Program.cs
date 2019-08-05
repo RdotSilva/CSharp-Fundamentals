@@ -14,6 +14,10 @@ namespace ArrayMethods
 
             // Length
             Console.WriteLine(numbers.Length);
+
+            // IndexOf()
+            var index = Array.IndexOf(numbers, 9);
+            Console.WriteLine(index);
         }
     }
 }
